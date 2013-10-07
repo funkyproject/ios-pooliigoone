@@ -14,16 +14,12 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+- (IBAction)handleDelSide:(id)sender {
+    NSLog(@"Del side");
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)handleAddSide:(id)sender {
+    NSLog(@"Add side");
 }
-
 @end

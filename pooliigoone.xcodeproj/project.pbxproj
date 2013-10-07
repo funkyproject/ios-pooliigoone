@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		846E97FE1802BA92001C2ED4 /* Polygone.m in Sources */ = {isa = PBXBuildFile; fileRef = 846E97FD1802BA92001C2ED4 /* Polygone.m */; };
 		84799BD01802A227008D790F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84799BCF1802A227008D790F /* UIKit.framework */; };
 		84799BD21802A227008D790F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84799BD11802A227008D790F /* Foundation.framework */; };
 		84799BD41802A227008D790F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84799BD31802A227008D790F /* CoreGraphics.framework */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		846E97FC1802BA92001C2ED4 /* Polygone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Polygone.h; sourceTree = "<group>"; };
+		846E97FD1802BA92001C2ED4 /* Polygone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Polygone.m; sourceTree = "<group>"; };
 		84799BCB1802A227008D790F /* pooliigoone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pooliigoone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84799BCF1802A227008D790F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		84799BD11802A227008D790F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -84,6 +87,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		846E98001802BB58001C2ED4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				846E97FC1802BA92001C2ED4 /* Polygone.h */,
+				846E97FD1802BA92001C2ED4 /* Polygone.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		84799BC01802A227008D790F = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +105,7 @@
 				84799BCC1802A227008D790F /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		84799BCC1802A227008D790F /* Products */ = {
 			isa = PBXGroup;
@@ -123,6 +136,7 @@
 				84799BEA1802A227008D790F /* ViewController.h */,
 				84799BEB1802A227008D790F /* ViewController.m */,
 				84799BD61802A227008D790F /* Supporting Files */,
+				846E98001802BB58001C2ED4 /* Model */,
 			);
 			path = pooliigoone;
 			sourceTree = "<group>";
@@ -273,6 +287,7 @@
 				84799BDC1802A227008D790F /* main.m in Sources */,
 				84799BE01802A227008D790F /* AppDelegate.m in Sources */,
 				84799BEC1802A227008D790F /* ViewController.m in Sources */,
+				846E97FE1802BA92001C2ED4 /* Polygone.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +462,7 @@
 				84799C061802A228008D790F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84799C071802A228008D790F /* Build configuration list for PBXNativeTarget "pooliigooneTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +471,7 @@
 				84799C091802A228008D790F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
