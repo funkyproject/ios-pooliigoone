@@ -7,14 +7,14 @@
 //
 
 #import "pooliigooneTests.h"
-
+#import "Polygone.h"
 @implementation pooliigooneTests
 
 - (void)setUp
 {
     [super setUp];
+
     
-    // Set-up code here.
 }
 
 - (void)tearDown
@@ -24,9 +24,17 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testPolyWith3SideWhenAskNameThenShouldBeTriangle
 {
-    STFail(@"Unit tests are not implemented yet in pooliigooneTests");
+    Polygone *poly = [Polygone polygoneWithNumberOfSide:3];
+    
+    STAssertEquals(@"Triangle", [poly name],@"Poly name");
+}
+
+
+- (void)testPolyWith2SideWhenAskNameThenShouldBeRaiseAnException
+{
+    STAssertThrows([Polygone polygoneWithNumberOfSide:2], @"Expection raise");
 }
 
 @end

@@ -8,6 +8,17 @@
 
 #import <Foundation/Foundation.h>
 
+#define K_POLYGONE_MIN_SIDE 3
+#define K_POLYGONE_MAX_SIDE 12
+
 @interface Polygone : NSObject
-@property int nbSide;
+
++(id)polygoneWithNumberOfSide:(int)numberOfSide;
+
+@property (readonly, nonatomic) int numberOfSide;
+
+-(NSString *)name;
+-(void) increase;
+-(void) decrease;
+
 @end

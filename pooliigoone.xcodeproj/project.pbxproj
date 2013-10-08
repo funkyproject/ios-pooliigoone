@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84633D701803F533008A9ABC /* UIPolygoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84633D6F1803F533008A9ABC /* UIPolygoneView.m */; };
 		846E97FE1802BA92001C2ED4 /* Polygone.m in Sources */ = {isa = PBXBuildFile; fileRef = 846E97FD1802BA92001C2ED4 /* Polygone.m */; };
 		84799BD01802A227008D790F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84799BCF1802A227008D790F /* UIKit.framework */; };
 		84799BD21802A227008D790F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84799BD11802A227008D790F /* Foundation.framework */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84633D6E1803F533008A9ABC /* UIPolygoneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPolygoneView.h; sourceTree = "<group>"; };
+		84633D6F1803F533008A9ABC /* UIPolygoneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIPolygoneView.m; sourceTree = "<group>"; };
 		846E97FC1802BA92001C2ED4 /* Polygone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Polygone.h; sourceTree = "<group>"; };
 		846E97FD1802BA92001C2ED4 /* Polygone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Polygone.m; sourceTree = "<group>"; };
 		84799BCB1802A227008D790F /* pooliigoone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pooliigoone.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +90,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84633D6C1803F519008A9ABC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84633D6E1803F533008A9ABC /* UIPolygoneView.h */,
+				84633D6F1803F533008A9ABC /* UIPolygoneView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		846E98001802BB58001C2ED4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +142,7 @@
 		84799BD51802A227008D790F /* pooliigoone */ = {
 			isa = PBXGroup;
 			children = (
+				84633D6C1803F519008A9ABC /* View */,
 				84799BDE1802A227008D790F /* AppDelegate.h */,
 				84799BDF1802A227008D790F /* AppDelegate.m */,
 				84799BE71802A227008D790F /* MainStoryboard.storyboard */,
@@ -288,6 +301,7 @@
 				84799BE01802A227008D790F /* AppDelegate.m in Sources */,
 				84799BEC1802A227008D790F /* ViewController.m in Sources */,
 				846E97FE1802BA92001C2ED4 /* Polygone.m in Sources */,
+				84633D701803F533008A9ABC /* UIPolygoneView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
